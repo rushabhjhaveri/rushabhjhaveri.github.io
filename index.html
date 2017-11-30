@@ -16,6 +16,9 @@
   <!-- Link my own CSS file -->
   <link rel="stylesheet" href="css/style.css" type="text/css">
 
+  <!-- Link Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Karma|Roboto" rel="stylesheet">
+
 </head> <!-- End HEAD -->
 
 <!-- Begin BODY -->
@@ -24,11 +27,11 @@
   <nav class="navbar navbar-fixed-top navbar-default">
     <div class="container-fluid">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
+        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Projects</a></li>
+        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -38,17 +41,17 @@
   <!--Begin Cover -->
   <div class="cover">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-md-0">
         <div class="intro">
           <h1>Hello, World!<br></h1>
           <h2>I'm Rushabh Jhaveri<br></h2>
           <h3>An Aspiring Software Developer</h2>
+            <div class="social-icons">
+              <a href="https://github.com/rushabhjhaveri" target="_blank"><i class="fa fa-github fa-2x" style="color:black" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/rushabhjhaveri/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+              <a href="Resume.pdf" target="_blank"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></a>
+            </div> <!--End social-icons -->
           </div>
-          <div class="social-icons">
-            <a href="https://github.com/rushabhjhaveri" target="_blank"><i class="fa fa-github fa-2x" style="color:black" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/rushabhjhaveri/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-            <a href="Resume.pdf" target="_blank"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></a>
-          </div> <!--End social-icons -->
         </div>
       </div> <!-- End row -->
     </div> <!-- End cover -->
@@ -181,6 +184,7 @@
                 <a href="https://github.com/rushabhjhaveri/HackRU-2017" target="_blank">View the Project on GitHub</a></span>
               </div>
             </div> <!-- End Project 1 -->
+            <hr>
             <div class="project-row">
               <div class="col-md-4">
                 <h3>Scientific Calculator</h3>
@@ -207,9 +211,9 @@
           <div class="row">
             <div class="col-md-12">
               <a href="mailto:rushabh98@yahoo.com"><i class="fa fa-envelope fa-2x"></i> rushabh98@yahoo.com<br></a>
-              <span class="link"><i class="fa fa-phone fa-2x"></i>  732-986-4485</span>
+              <a href="#"><i class="fa fa-phone fa-2x"></i>  732-986-4485</a>
             </div>
           </div>
         </div>
-        </body>
-        </html>
+      </body>
+      </html>
