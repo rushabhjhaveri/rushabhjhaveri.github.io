@@ -19,6 +19,20 @@
   <!-- Link Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Karma|Roboto" rel="stylesheet">
 
+  <!-- Link jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Link typed.js -->
+  <script src="lib/typed.js" type="text/javascript"></script>
+
+  <script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 100,
+    backSpeed: 100
+  });
+  </script>
+
 </head> <!-- End HEAD -->
 
 <!-- Begin BODY -->
@@ -42,11 +56,12 @@
   <div class="cover">
     <div class="row">
       <div class="col-md-0">
-        <div class="intro">
+        <div class="intro" id="typed-strings">
           <h1>Hello, World!<br></h1>
           <h2>I'm Rushabh Jhaveri<br></h2>
           <h3>An Aspiring Software Developer</h2>
           </div>
+          <span id="typed"></span>
         </div>
       </div> <!-- End row -->
     </div> <!-- End cover -->
@@ -210,5 +225,14 @@
             </div>
           </div>
         </div>
+        <!--
+        <script>
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          typeSpeed: 100,
+          backSpeed: 100
+        });
+      </script>
+    -->
       </body>
       </html>
