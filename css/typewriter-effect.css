@@ -1,0 +1,27 @@
+#title {
+	font-size: 350%;
+	color: white;
+	display:inline-block;
+	white-space: nowrap;
+	border-right: .05em solid;
+	animation: caret 1s steps(1) infinite;
+}
+
+#title-cmdline {
+	background: rgba(0,0,0,0.2);
+	/*
+	border-right: .05em solid;
+	animation: caret 1s steps(1) infinite; */
+}
+
+/*
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+*/
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
