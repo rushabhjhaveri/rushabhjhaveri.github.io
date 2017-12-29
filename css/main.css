@@ -285,10 +285,26 @@ h4 {
 .contact{
   padding-top: 50px;
   padding-bottom: 50px;
+  background:no-repeat center right fixed url(../images/pixels.png);
+  -webkit-background-size:100%;
+  -moz-background-size:100%;
+  -o-background-size:100%;
+  background-size:100%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/pixels.png',sizingMethod='scale')";
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/pixels.png',sizingMethod='scale');
+  opacity: 1.0;
+}
+
+.contact h2{
+  color: #f6e0b5;
 }
 
 .contact a {
-  color: #0099CC;
+  color: white;
 }
 
 .contact a:hover{
@@ -299,11 +315,11 @@ h4 {
 
 .social-icons2 a{
   transition: all 0.7s ease;
-  color: black;
+  color: white;
   font-size: 25px;
 }
 
 .social-icons2 a:hover {
-  color: #3b5998;
+  color: yellow;
   text-decoration: none;
 }
