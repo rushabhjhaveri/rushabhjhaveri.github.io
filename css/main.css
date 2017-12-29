@@ -202,7 +202,35 @@ h4 {
 .about{
   padding-top: 50px;
   padding-bottom: 50px;
+  background:no-repeat center right fixed url(../images/nyc.jpg);
+  -webkit-background-size:100%;
+  -moz-background-size:100%;
+  -o-background-size:100%;
+  background-size:100%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/nyc.jpg',sizingMethod='scale')";
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/pixity.gif',sizingMethod='scale');
+  opacity: 1.0;
+  color: yellow;
 }
+
+.about p{
+  color: yellow;
+}
+
+#particles-js {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
 .experience{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -249,7 +277,10 @@ h4 {
 .projects{
   padding-top: 50px;
   padding-bottom: 50px;
+
 }
+
+
 
 .contact{
   padding-top: 50px;
