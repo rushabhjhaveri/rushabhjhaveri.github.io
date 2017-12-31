@@ -1,8 +1,6 @@
 # rushabhjhaveri.github.io #
 Resume Website: https://rushabhjhaveri.github.io/
 
-# To-Do: #
-1. A numbered list
-  1. A nested numbered list
-  2. Which is numbered
-2. Which is numbered
+# To-Do #
+1. Find a suitable background for Projects section.
+2. Make necessary changes so that the website is responsive on mobile devices.
